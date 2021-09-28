@@ -116,6 +116,7 @@ public class ChatResource {
                 try {
                     // Take one response from the queue and resume it with the message. If no message is in the queue now
                     // then this method will block the thread until the response is put into queue (by GET http method).
+                    
                     final AsyncResponseWrapper responseWrapper = suspended.take();
                     responseWrapper.getAsyncResponse().resume(Response.ok()
                             .entity(message).header("request-id", responseWrapper.getId()).build());
