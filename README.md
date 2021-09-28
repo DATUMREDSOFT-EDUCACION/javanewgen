@@ -1,4 +1,4 @@
-# javanewgen
+# javanewgen - JDK 8
 
 Demostraciones de Java New Generation
 
