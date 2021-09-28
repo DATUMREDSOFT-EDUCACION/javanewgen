@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.quarkus.quickstarts</groupId>
+    <artifactId>quickstart-projects</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>getting-started</module>
+        <module>getting-started-async</module>
+        <module>getting-started-reactive</module>
+        <module>getting-started-reactive-crud</module>
+        <module>getting-started-knative</module>
+        <module>getting-started-testing</module>
+        <module>jms-quickstart</module>
+        <module>micrometer-quickstart</module>
+        <module>microprofile-fault-tolerance-quickstart</module>
+        <module>microprofile-graphql-quickstart</module>
+        <module>microprofile-health-quickstart</module>
+        <module>microprofile-metrics-quickstart</module>
+        <module>openapi-swaggerui-quickstart</module>
+        <module>reactive-routes-quickstart</module>
+        <module>reactive-messaging-http-quickstart</module>
+        <module>rest-client-quickstart</module>
+        <module>rest-client-multipart-quickstart</module>
+        <module>rest-json-quickstart</module>
+        <module>scheduler-quickstart</module>
+        <module>security-jwt-quickstart</module>
+        <module>security-oauth2-quickstart</module>
+        <module>websockets-quickstart</module>
+       </modules>
+</project>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liberty-plugin-config>
+    <activeBuildProfiles>
+        <profileId>liberty</profileId>
+        <profileId>default</profileId>
+        <profileId>redhat-ga-repository</profileId>
+    </activeBuildProfiles>
+    <installDirectory>C:\data\transferenciaVM\javanewgen\open-liberty-demo\target\liberty\wlp</installDirectory>
+    <serverDirectory>C:\data\transferenciaVM\javanewgen\open-liberty-demo\target\liberty\wlp\usr\servers\open-liberty-demo</serverDirectory>
+    <userDirectory>C:\data\transferenciaVM\javanewgen\open-liberty-demo\target\liberty\wlp\usr</userDirectory>
+    <serverOutputDirectory>C:\data\transferenciaVM\javanewgen\open-liberty-demo\target\wlp-package\open-liberty-demo</serverOutputDirectory>
+    <serverName>open-liberty-demo</serverName>
+    <configDirectory>C:\data\transferenciaVM\javanewgen\open-liberty-demo\src\main\liberty\config</configDirectory>
+    <configFile>C:\data\transferenciaVM\javanewgen\open-liberty-demo\src\main\liberty\config\server.xml</configFile>
+    <bootstrapProperties>
+        <app.context.root>/</app.context.root>
+        <jwt.issuer>https://server.example.com</jwt.issuer>
+        <project.name>open-liberty-demo</project.name>
+    </bootstrapProperties>
+    <appsDirectory>apps</appsDirectory>
+    <looseApplication>true</looseApplication>
+    <stripVersion>false</stripVersion>
+    <installAppPackages>project</installAppPackages>
+    <applicationFilename>open-liberty-demo.war.xml</applicationFilename>
+    <assemblyArtifact>
+        <groupId>io.openliberty</groupId>
+        <artifactId>openliberty-kernel</artifactId>
+        <version>21.0.0.9</version>
+        <type>zip</type>
+    </assemblyArtifact>
+    <assemblyArchive>C:\Users\Datum-Redsoft\.m2\repository\io\openliberty\openliberty-kernel\21.0.0.9\openliberty-kernel-21.0.0.9.zip</assemblyArchive>
+    <assemblyInstallDirectory>C:\data\transferenciaVM\javanewgen\open-liberty-demo\target\liberty</assemblyInstallDirectory>
+    <refresh>false</refresh>
+    <installAppsConfigDropins>C:\data\transferenciaVM\javanewgen\open-liberty-demo\target\liberty\wlp\usr\servers\open-liberty-demo\configDropins\defaults\install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <projectType>war</projectType>
+    <projectCompileDependency>org.slf4j:slf4j-api:1.7.30</projectCompileDependency>
+    <projectCompileDependency>org.slf4j:slf4j-jdk14:1.7.30</projectCompileDependency>
+    <warSourceDirectory>C:\data\transferenciaVM\javanewgen\open-liberty-demo\src\main\webapp</warSourceDirectory>
+</liberty-plugin-config>

@@ -1,0 +1,142 @@
+********************************************************************************
+product = Open Liberty 21.0.0.9 (wlp-1.0.56.cl210920210824-2341)
+wlp.install.dir = C:/data/transferenciaVM/javanewgen/open-liberty-demo/target/liberty/wlp/
+java.home = C:\Program Files\Java\jdk1.8.0_121\jre
+java.version = 1.8.0_121
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_121-b13)
+os = Windows 10 (10.0; amd64) (en_US)
+process = 22484@edsonartiga
+********************************************************************************
+[9/27/21 22:10:14:754 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server open-liberty-demo has been launched.
+[9/27/21 22:10:17:589 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 3.16 seconds
+[9/27/21 22:10:17:739 CST] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[9/27/21 22:10:20:584 CST] 00000017 .apache.cxf.cxf.core.3.2:1.0.56.cl210920210824-2341(id=148)] I Aries Blueprint packages not available. So namespaces will not be registered
+[9/27/21 22:10:20:586 CST] 0000001a .apache.cxf.cxf.core.3.2:1.0.56.cl210920210824-2341(id=148)] I Aries Blueprint packages not available. So namespaces will not be registered
+[9/27/21 22:10:20:693 CST] 00000016 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[9/27/21 22:10:21:030 CST] 00000019 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[9/27/21 22:10:21:220 CST] 00000018 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[9/27/21 22:10:21:226 CST] 00000018 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[9/27/21 22:10:21:227 CST] 00000018 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[9/27/21 22:10:21:239 CST] 00000018 .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5775I: The MicroProfile JWT version 1.1 mpConfigProxy processed successfully.
+[9/27/21 22:10:23:318 CST] 0000001e com.ibm.ws.ssl.config.WSKeyStore                             I CWPKI0802I: Creating the SSL certificate. This may take a few seconds.
+[9/27/21 22:10:23:352 CST] 0000002c com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            I CWWKS4103I: Creating the LTPA keys. This may take a few seconds.
+[9/27/21 22:10:23:402 CST] 00000016 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[9/27/21 22:10:23:747 CST] 00000016 com.ibm.ws.security.jwt.internal.ConsumerImpl                I CWWKS6012I: The JSON Web Token (JWT) consumer service is available.
+[9/27/21 22:10:23:794 CST] 00000016 com.ibm.ws.security.jwt.web.JwtEndpointServices              I CWWKS6002I: The JSON Web Token (JWT) endpoint service is available.
+[9/27/21 22:10:23:929 CST] 00000016 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[9/27/21 22:10:24:072 CST] 0000002c com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            A CWWKS4104A: LTPA keys created in 0.721 seconds. LTPA key file: C:/data/transferenciaVM/javanewgen/open-liberty-demo/target/liberty/wlp/usr/servers/open-liberty-demo/resources/security/ltpa.keys
+[9/27/21 22:10:24:089 CST] 0000002c com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.745 seconds.
+[9/27/21 22:10:24:677 CST] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application open-liberty-demo.
+[9/27/21 22:10:24:679 CST] 0000002c bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The open-liberty-demo application is using the loose application definition at the C:\data\transferenciaVM\javanewgen\open-liberty-demo\target\liberty\wlp\usr\servers\open-liberty-demo\apps\open-liberty-demo.war.xml location.
+[9/27/21 22:10:25:330 CST] 00000023 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ibm/api.
+[9/27/21 22:10:25:334 CST] 00000023 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ibm/api has been bound to default_host.
+[9/27/21 22:10:25:338 CST] 00000023 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/ibm/api/
+[9/27/21 22:10:25:392 CST] 00000031 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: com.ibm.ws.security.jwt.
+[9/27/21 22:10:25:392 CST] 00000024 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: PublicMicroProfileMetrics.
+[9/27/21 22:10:25:393 CST] 00000031 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module com.ibm.ws.security.jwt has been bound to default_host.
+[9/27/21 22:10:25:393 CST] 00000024 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module PublicMicroProfileMetrics has been bound to default_host.
+[9/27/21 22:10:25:398 CST] 00000031 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/jwt/
+[9/27/21 22:10:25:403 CST] 00000026 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: OpenAPIUI.
+[9/27/21 22:10:25:404 CST] 00000032 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MicroProfileOpenAPI.
+[9/27/21 22:10:25:404 CST] 00000026 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module OpenAPIUI has been bound to default_host.
+[9/27/21 22:10:25:404 CST] 00000032 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MicroProfileOpenAPI has been bound to default_host.
+[9/27/21 22:10:25:404 CST] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/openapi/ui/
+[9/27/21 22:10:25:407 CST] 00000024 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/metrics/
+[9/27/21 22:10:25:408 CST] 00000032 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/openapi/
+[9/27/21 22:10:25:441 CST] 00000027 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: health.
+[9/27/21 22:10:25:442 CST] 00000027 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module health has been bound to default_host.
+[9/27/21 22:10:25:442 CST] 00000027 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/health/
+[9/27/21 22:10:25:564 CST] 00000028 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi/ui
+[9/27/21 22:10:25:568 CST] 00000027 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/health
+[9/27/21 22:10:25:568 CST] 0000002d com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/jwt
+[9/27/21 22:10:25:573 CST] 0000002e com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ibm/api
+[9/27/21 22:10:25:575 CST] 00000032 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi
+[9/27/21 22:10:25:578 CST] 0000002a com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/metrics
+[9/27/21 22:10:25:597 CST] 0000002d com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[9/27/21 22:10:26:030 CST] 0000002a com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[9/27/21 22:10:26:031 CST] 00000032 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[9/27/21 22:10:26:033 CST] 00000028 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[9/27/21 22:10:26:033 CST] 00000027 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[9/27/21 22:10:26:034 CST] 0000002e com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[9/27/21 22:10:26:060 CST] 00000028 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[9/27/21 22:10:26:189 CST] 00000027 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.health.2.0] [/health] [HealthCheckReadinessServlet]: Initialization successful.
+[9/27/21 22:10:26:190 CST] 00000032 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.openapi] [/openapi] [OpenAPIServlet]: Initialization successful.
+[9/27/21 22:10:26:191 CST] 0000002a com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.metrics.public] [/metrics] [PublicMetricsRESTProxyServlet]: Initialization successful.
+[9/27/21 22:10:26:191 CST] 00000027 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.health.2.0] [/health] [HealthCheckServlet]: Initialization successful.
+[9/27/21 22:10:26:192 CST] 00000027 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.health.2.0] [/health] [HealthCheckLivenessServlet]: Initialization successful.
+[9/27/21 22:10:26:393 CST] 0000002f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\data\transferenciaVM\javanewgen\open-liberty-demo\target\liberty\wlp\usr\servers\open-liberty-demo\logs\state\plugin-cfg.xml.
+[9/27/21 22:10:26:662 CST] 0000002c com.ibm.ws.microprofile.openapi.ApplicationProcessor         E CWWKO1650E: Validation of the OpenAPI document produced the following error(s): 
+                                                                                                               
+ - Message: The "#/components/schemas/Booking" reference value is not defined within the Components Object, Location: #/paths/~1data~1booking~1{bookingId}/get/responses/200/content/application~1json/schema
+ - Message: The "#/components/schemas/Booking" value is an invalid reference, Location: #/paths/~1data~1booking~1{bookingId}/get/responses/200/content/application~1json/schema
+
+[9/27/21 22:10:26:665 CST] 0000002c com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: The application open-liberty-demo was processed and an OpenAPI document was produced.
+[9/27/21 22:10:26:733 CST] 0000002c org.jboss.weld.Version                                       I WELD-000900: 3.1.7 (SP1)
+[9/27/21 22:10:28:959 CST] 0000002c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: open-liberty-demo.
+[9/27/21 22:10:28:959 CST] 0000002c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module open-liberty-demo has been bound to default_host.
+[9/27/21 22:10:28:960 CST] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[9/27/21 22:10:28:985 CST] 00000030 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[9/27/21 22:10:28:986 CST] 00000030 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[9/27/21 22:10:29:103 CST] 0000002c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\data\transferenciaVM\javanewgen\open-liberty-demo\target\liberty\wlp\usr\servers\open-liberty-demo\logs\state\plugin-cfg.xml.
+[9/27/21 22:10:29:110 CST] 00000030 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application open-liberty-demo started in 4.433 seconds.
+[9/27/21 22:10:29:204 CST] 00000022 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host kubernetes.docker.internal  (IPv4: 127.0.0.1) port 9080.
+[9/27/21 22:10:29:345 CST] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [appSecurity-2.0, cdi-2.0, concurrent-1.0, distributedMap-1.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, json-1.0, jsonb-1.0, jsonp-1.1, jwt-1.0, microProfile-3.2, mpConfig-1.3, mpFaultTolerance-2.0, mpHealth-2.1, mpJwt-1.1, mpMetrics-2.2, mpOpenAPI-1.1, mpOpenTracing-1.3, mpRestClient-1.3, opentracing-1.3, servlet-4.0, ssl-1.0].
+[9/27/21 22:10:29:346 CST] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 11.755 seconds.
+[9/27/21 22:10:29:347 CST] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The open-liberty-demo server is ready to run a smarter planet. The open-liberty-demo server started in 14.919 seconds.
+[9/27/21 22:10:29:479 CST] 0000001e com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0803A: SSL certificate created in 6.161 seconds. SSL key file: C:/data/transferenciaVM/javanewgen/open-liberty-demo/target/liberty/wlp/usr/servers/open-liberty-demo/resources/security/public.jks
+[9/27/21 22:10:29:481 CST] 0000001e com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: C:/data/transferenciaVM/javanewgen/open-liberty-demo/target/liberty/wlp/usr/servers/open-liberty-demo/resources/security/public.jks of type: JKS
+[9/27/21 22:10:29:574 CST] 0000001e com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5500I: The MicroProfile JWT configuration [MicroProfileJwtService] was successfully processed.
+[9/27/21 22:10:29:577 CST] 0000001e com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: The MicroProfile JWT configuration [jwtUserConsumer] was successfully processed.
+[9/27/21 22:10:29:578 CST] 0000001e com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: The MicroProfile JWT configuration [defaultMpJwt] was successfully processed.
+[9/27/21 22:10:29:711 CST] 00000026 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host kubernetes.docker.internal  (IPv4: 127.0.0.1) port 9443.
+[9/27/21 22:10:31:938 CST] 0000002b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[9/27/21 22:10:31:991 CST] 0000002b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application open-liberty-demo has stopped successfully.
+[9/27/21 22:10:32:002 CST] 0000002b com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application open-liberty-demo.
+[9/27/21 22:10:32:003 CST] 0000002b bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The open-liberty-demo application is using the loose application definition at the C:\data\transferenciaVM\javanewgen\open-liberty-demo\target\liberty\wlp\usr\servers\open-liberty-demo\apps\open-liberty-demo.war.xml location.
+[9/27/21 22:10:32:040 CST] 00000022 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\data\transferenciaVM\javanewgen\open-liberty-demo\target\liberty\wlp\usr\servers\open-liberty-demo\logs\state\plugin-cfg.xml.
+[9/27/21 22:10:32:210 CST] 0000002b com.ibm.ws.microprofile.openapi.ApplicationProcessor         E CWWKO1650E: Validation of the OpenAPI document produced the following error(s): 
+                                                                                                               
+ - Message: The "#/components/schemas/Booking" reference value is not defined within the Components Object, Location: #/paths/~1data~1booking~1{bookingId}/get/responses/200/content/application~1json/schema
+ - Message: The "#/components/schemas/Booking" value is an invalid reference, Location: #/paths/~1data~1booking~1{bookingId}/get/responses/200/content/application~1json/schema
+
+[9/27/21 22:10:32:211 CST] 0000002b com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: The application open-liberty-demo was processed and an OpenAPI document was produced.
+[9/27/21 22:10:32:699 CST] 0000002b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: open-liberty-demo.
+[9/27/21 22:10:32:699 CST] 0000002b com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module open-liberty-demo has been bound to default_host.
+[9/27/21 22:10:32:699 CST] 0000002b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[9/27/21 22:10:32:702 CST] 00000027 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[9/27/21 22:10:32:703 CST] 00000027 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[9/27/21 22:10:32:729 CST] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application open-liberty-demo updated in 0.727 seconds.
+[9/27/21 22:10:32:794 CST] 0000002e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\data\transferenciaVM\javanewgen\open-liberty-demo\target\liberty\wlp\usr\servers\open-liberty-demo\logs\state\plugin-cfg.xml.
+[9/27/21 22:10:34:181 CST] 0000002b .apache.cxf.cxf.core.3.2:1.0.56.cl210920210824-2341(id=148)] I Setting the server's publish address to be /data/
+[9/27/21 22:10:34:290 CST] 0000002b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [open-liberty-demo] [/] [com.redsoft.open.liberty.demo.OpenlibertydemoRestApplication]: Initialization successful.
+[9/27/21 22:10:34:377 CST] 0000002b com.ibm.ws.opentracing.OpentracingUserFeatureAccessService   W CWMOT0010W: OpenTracing cannot track JAX-RS requests because an OpentracingTracerFactory class was not provided or client libraries for tracing backend are not in the class path.
+[9/27/21 22:10:34:458 CST] 00000031 com.ibm.ws.webcontainer.extension                            W SRVE0190E: File not found: /favicon.ico
+[9/27/21 22:12:11:206 CST] 00000051 com.ibm.ws.webcontainer.extension                            W SRVE0190E: File not found: /?/data?/booking?/123
+[9/27/21 22:13:05:076 CST] 0000002c com.ibm.ws.webcontainer.extension                            W SRVE0190E: File not found: /?/data?/booking?/123
+[9/27/21 22:13:09:723 CST] 0000002d com.ibm.ws.webcontainer.extension                            W SRVE0190E: File not found: /?/data?/booking/123
+[9/27/21 22:14:33:789 CST] 00000013 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Monday, September 27, 2021 at 10:14 PM. The server open-liberty-demo is shutting down.
+[9/27/21 22:14:33:794 CST] 0000005e com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[9/27/21 22:14:33:813 CST] 0000004f com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint-ssl has stopped listening for requests on host kubernetes.docker.internal  (IPv4: 127.0.0.1) port 9443.
+[9/27/21 22:14:33:817 CST] 0000004f com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host kubernetes.docker.internal  (IPv4: 127.0.0.1) port 9080.
+[9/27/21 22:14:33:818 CST] 0000004f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/jwt/
+[9/27/21 22:14:33:819 CST] 0000004f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/openapi/ui/
+[9/27/21 22:14:33:819 CST] 0000004f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/metrics/
+[9/27/21 22:14:33:819 CST] 0000004f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/health/
+[9/27/21 22:14:33:820 CST] 0000004f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[9/27/21 22:14:33:821 CST] 0000004f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/ibm/api/
+[9/27/21 22:14:33:822 CST] 0000004f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/openapi/
+[9/27/21 22:14:34:841 CST] 0000005e com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[9/27/21 22:14:34:895 CST] 00000057 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [open-liberty-demo] [/] [com.redsoft.open.liberty.demo.OpenlibertydemoRestApplication]: Destroy successful.
+[9/27/21 22:14:34:914 CST] 00000057 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application open-liberty-demo has stopped successfully.
+[9/27/21 22:14:34:962 CST] 0000005e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [com.ibm.ws.microprofile.metrics.public] [/metrics] [PublicMetricsRESTProxyServlet]: Destroy successful.
+[9/27/21 22:14:34:978 CST] 0000005e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [com.ibm.ws.microprofile.health.2.0] [/health] [HealthCheckReadinessServlet]: Destroy successful.
+[9/27/21 22:14:34:978 CST] 0000005e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [com.ibm.ws.microprofile.health.2.0] [/health] [HealthCheckLivenessServlet]: Destroy successful.
+[9/27/21 22:14:34:979 CST] 0000005e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [com.ibm.ws.microprofile.health.2.0] [/health] [HealthCheckServlet]: Destroy successful.
+[9/27/21 22:14:34:996 CST] 0000005e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [com.ibm.ws.microprofile.openapi] [/openapi] [OpenAPIServlet]: Destroy successful.
+[9/27/21 22:14:35:286 CST] 0000005e .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5777I: The MicroProfile JWT version 1.1 mpConfigProxy deactivated successfully.
+[9/27/21 22:14:35:289 CST] 0000005e com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5502I: The MicroProfile JWT configuration [jwtUserConsumer] was successfully deactivated.
+[9/27/21 22:14:35:290 CST] 0000005e com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5502I: The MicroProfile JWT configuration [defaultMpJwt] was successfully deactivated.
+[9/27/21 22:14:35:292 CST] 0000005e com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5502I: The MicroProfile JWT configuration [MicroProfileJwtService] was successfully deactivated.
+[9/27/21 22:14:35:470 CST] 0000005e com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
+[9/27/21 22:14:35:526 CST] 0000005e ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been deactivated. 
+[9/27/21 22:14:36:788 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server open-liberty-demo stopped after 4 minutes, 22.36 seconds.
